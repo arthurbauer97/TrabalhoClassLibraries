@@ -1,0 +1,38 @@
+@model IEnumerable<AppChamados.Domain.Cliente>
+
+    <div class="container">
+
+        <h3>Clientes</h3>
+
+        <br>
+
+        <div class="row">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Cliente</th>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                        <th colspan="3">E-mail</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach(var cliente in Model)
+                    {
+                    <tr>
+                        <td class="col-md-1">#@cliente.id</td>
+                        <td class="col-md-3">@cliente.nome</td>
+                        <td class="col-md-2">@cliente.telefone</td>
+                        <td class="col-md-4">@cliente.email</td>
+                        <td class="col-md-1"><a class="btn btn-primary" href="Update/@cliente.id">Editar</a></td>
+                        <td class="col-md-1"><a class="btn btn-danger" href="Delete/@cliente.id">Deletar</a></td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <a href="../Chamado" class="btn btn-primary">Voltar</a>
+
+    </div>

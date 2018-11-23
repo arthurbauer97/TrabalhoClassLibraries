@@ -1,0 +1,12 @@
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Repositories\bin\Debug\netstandard2.0\AppChamados.Repositories.deps.json
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Repositories\bin\Debug\netstandard2.0\AppChamados.Repositories.dll
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Repositories\bin\Debug\netstandard2.0\AppChamados.Repositories.pdb
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Repositories\bin\Debug\netstandard2.0\AppChamados.Domain.dll
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Repositories\bin\Debug\netstandard2.0\AppChamados.Domain.pdb
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Repositories\obj\Debug\netstandard2.0\AppChamados.Repositories.csprojAssemblyReference.cache
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Repositories\obj\Debug\netstandard2.0\AppChamados.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Repositories\obj\Debug\netstandard2.0\AppChamados.Repositories.AssemblyInfoInputs.cache
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Repositories\obj\Debug\netstandard2.0\AppChamados.Repositories.AssemblyInfo.cs
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Repositories\obj\Debug\netstandard2.0\AppChamados.Repositories.csproj.CopyComplete
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Repositories\obj\Debug\netstandard2.0\AppChamados.Repositories.dll
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Repositories\obj\Debug\netstandard2.0\AppChamados.Repositories.pdb

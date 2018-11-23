@@ -1,0 +1,9 @@
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Domain\bin\Debug\netstandard2.0\AppChamados.Domain.deps.json
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Domain\bin\Debug\netstandard2.0\AppChamados.Domain.dll
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Domain\bin\Debug\netstandard2.0\AppChamados.Domain.pdb
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Domain\obj\Debug\netstandard2.0\AppChamados.Domain.csprojAssemblyReference.cache
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Domain\obj\Debug\netstandard2.0\AppChamados.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Domain\obj\Debug\netstandard2.0\AppChamados.Domain.AssemblyInfoInputs.cache
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Domain\obj\Debug\netstandard2.0\AppChamados.Domain.AssemblyInfo.cs
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Domain\obj\Debug\netstandard2.0\AppChamados.Domain.dll
+C:\Users\Guilherme\Desktop\Workspace\lpc\atividades-lpc\trabalho-g1\AppChamados.Domain\obj\Debug\netstandard2.0\AppChamados.Domain.pdb

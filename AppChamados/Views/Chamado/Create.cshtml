@@ -1,0 +1,66 @@
+@model AppChamados.Domain.Chamado
+
+<div class="container">
+
+    <h3>Abrir Chamado</h3>
+
+    <br>
+
+    <form action="Create" method="Post">
+
+        <div class="col-md-5">
+
+        <div class="row">
+            <div class="form-group col-md-12">
+                <label for="cliente.id">Cliente</label>
+                <select class="form-control" name="cliente.id">
+                    @foreach(var cliente in @ViewBag.clientes)
+                    {
+                        <option value=@cliente.id>@cliente.nome</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-12">
+                <label for="situacao.id">Situação</label>
+                <select class="form-control" name="situacao.id">
+                    @foreach(var situacao in @ViewBag.situacoes)
+                    {
+                        <option value=@situacao.id>@situacao.descricao</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-12">
+                <label for="descricao">Descrição do Problema</label>
+                <textarea class="form-control" rows="5" name="descricao"></textarea>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="dataChamado">Data</label>
+                <input class="form-control" type="date" name="dataChamado">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="horaInicio">Hora de Início</label>
+                <input class="form-control" type="time" name="horaInicio">
+            </div>
+        </div>
+
+        <input class="btn btn-primary" type="submit" value="Cadastrar Chamado"/>
+        
+        <a href="Index" class="btn btn-primary">Voltar</a>
+
+        </div>
+
+    </form>
+
+</div>

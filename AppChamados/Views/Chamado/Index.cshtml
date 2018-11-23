@@ -1,0 +1,50 @@
+@model IEnumerable<AppChamados.Domain.Chamado>
+
+    <div class="container">
+
+        <h3>Chamados</h3>
+
+        <br>
+
+        <div class="row">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Chamado</th>
+                        <th>Cliente</th>
+                        <th>Data Chamado</th>
+                        <th>Hora Início</th>
+                        <th>Data Solução</th>
+                        <th>Hora Fim</th>
+                        <th>Situação</th>
+                        <th  colspan="3">Duração</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach(var chamado in Model)
+                    {
+                    <tr>
+                        <td class="col-md-1">#@chamado.id</td>
+                        <td class="col-md-2">@chamado.cliente.nome</td>
+                        <td class="col-md-2">@chamado.dataChamado.ToString("dd/MM/yyyy")</td>
+                        <td class="col-md-1">@chamado.horaInicio</td>
+                        <td class="col-md-2">@chamado.dataSolucao</td>
+                        <td class="col-md-1">@chamado.horaFim</td>
+                        <td class="col-md-1">@chamado.situacao.descricao</td>
+                        <td class="col-md-1">@chamado.duracaoChamado</td>
+                        <td><a class="btn btn-primary" href="Chamado/Update/@chamado.id">Editar</a></td>
+                        <td><a class="btn btn-danger" href="Chamado/Delete/@chamado.id">Deletar</a></td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <a href="Chamado/Create" class="btn btn-primary">Abrir Chamado</a>
+        <a href="../Cliente/Create" class="btn btn-primary">Cadastrar Cliente</a>
+        <a href="../Cliente/Index" class="btn btn-primary">Listar Clientes</a>
+        <a href="../Situacao/Create" class="btn btn-primary">Cadastrar Situação</a>
+        <a href="../Situacao/Index" class="btn btn-primary">Listar Situações</a>
+
+    </div>

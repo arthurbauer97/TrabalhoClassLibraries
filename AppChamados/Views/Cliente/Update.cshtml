@@ -1,0 +1,47 @@
+@model AppChamados.Domain.Cliente
+
+<div class="container">
+
+    <h3>Editar Cliente</h3>
+
+    <br>
+
+    <form action="Update" method="Post">
+
+        <div class="col-md-5">
+
+        <div class="row">
+            <div class="form-group col-md-12">
+                <label for="id">Nome</label>
+                <input class="form-control" type="text" name="id" value="@Model.id" readonly>
+            </div>
+        </div> 
+
+        <div class="row">
+            <div class="form-group col-md-12">
+                <label for="nome">Nome</label>
+                <input class="form-control" type="text" name="nome" value="@Model.nome">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-12">
+                <label for="telefone">Telefone</label>
+                <input class="form-control" type="text" name="telefone" value="@Model.telefone">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-12">
+                <label for="email">E-mail</label>
+                <input class="form-control" type="text" name="email" value="@Model.email">
+            </div>
+        </div>
+
+        <input class="btn btn-primary" type="submit" value="Salvar Alterações"/>
+
+        </div>
+
+    </form>
+
+</div>
